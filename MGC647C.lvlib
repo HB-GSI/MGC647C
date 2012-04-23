@@ -92,6 +92,7 @@ In case of questions mail to: H.Brand@gsi.de</Property>
 	</Item>
 	<Item Name="Examples" Type="Folder">
 		<Item Name="Monitor Pressure &amp; Flow.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Examples/Monitor Pressure &amp; Flow.vi"/>
+		<Item Name="Read Status.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Examples/Read Status.vi"/>
 	</Item>
 	<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/VI Tree.vi"/>
 	<Item Name="MGC647C Readme.html" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/MGC647C Readme.html"/>
