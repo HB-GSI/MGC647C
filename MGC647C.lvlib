@@ -13,6 +13,9 @@
 	<Property Name="NI.Lib.Description" Type="Str">LabVIEW Plug and Play instrument driver for
 Multi Channel Flow Ratio/Pressure Controller Type 647C of MKS Instruments Deutschland GmbH.
 
+Conditional Disable Symbols:
+- TraceLog = {False=Default, True}
+
 Lizenziert unter EUPL V. 1.1
 
 Copyright 2012 GSI Helmholtzzentrum für Schwerionenforschung GmbH
@@ -20,6 +23,7 @@ Dr. Holger Brand, EE/KS
 Planckstr. 1, 64291 Darmstadt, Germany
 
 In case of questions mail to: H.Brand@gsi.de</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%1#!#!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;;^&lt;&gt;NA%-&lt;RRU%+NSL4W834`F&lt;1#FLB6F$L5ME'"V&gt;//HK")&amp;TB6O!+7E(_]_7*.G,!=B%"13"3*UP0_`54PW#J&lt;&gt;@3:RV/&lt;8JXI\XN5\_K1YN@@4^G3\W],_U(,?0G.6_V,`P,W(K^7@`0M@K!`^*_;@_0WU`@XP=H/ZVZE[[/NXZ314FF]RW=Z%G?Z%G?Z%E?Z%%?Z%%?Z%(OZ%\OZ%\OZ%ZOZ%:OZ%:OZ+:[N*#,8/3S^PB)&amp;E]73C:.*EA[1V(SFHA34_**0(R6YEE]C3@R*"[[+0%EHM34?")0QZ2Y%E`C34S*B[G;*.N/DC@R-,U#4_!*0)%H],#E!E]!#"9,*AYGA;'A-@A1?!*0Y/'D!E`A#4S"*`$1L-!4?!*0Y!E]$'F(*:JGWMHR-)U=D_.R0)\(]4#V()`D=4S/R`'QH"S0YX%1TI,/Z"$E$()[/&amp;]=D_0BDRS0YX%]DM@RU.4/E,=D-WGGH2S0Y4%]BM@Q'"[GE/%R0)&lt;(]"A?JJ8B-4S'R`!9(J;3Y4%]BM?!')OSP)T*D)&amp;'*S-Q0,T;V7,N,%747.PLVJQP6.5&amp;K,KQ6"?-[E*1H7$6C6/&gt;%.7"6BV!V9&amp;2`7$6$V%"61OL*F2VV*\XE2KIHNJ27WJ$L;G/7EV$`X,(`8[P=2QV$)0[PN&gt;ON^.WO^6GM^&amp;[P6&lt;8&gt;6KN6MP4[I:^XK[/T[6\0D`&amp;T`D&gt;@8U=\HY^^D__X4Y^@0]SZ??M_&lt;HU,TQ&lt;^;H_L6G/U40&gt;84XK!!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
