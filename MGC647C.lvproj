@@ -62,7 +62,7 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MGC647C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/MGC647C/MGC647C.lvlib"/>
-		<Item Name="HGF_FGV_File.lvlib" Type="Library" URL="/&lt;userlib&gt;/FGV_Utilities/FGV_File/HGF_FGV_File.lvlib"/>
+		<Item Name="HGF_FGV_File.lvlib" Type="Library" URL="/&lt;userlib&gt;/FGV_Utilities/HGF_FGV_File/HGF_FGV_File.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
