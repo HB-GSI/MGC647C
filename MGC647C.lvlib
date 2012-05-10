@@ -110,4 +110,5 @@ In case of questions mail to: H.Brand@gsi.de</Property>
 	<Item Name="MGC647C Readme.html" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/MGC647C Readme.html"/>
 	<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/EUPL v.1.1 - Lizenz.pdf"/>
 	<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/EUPL v.1.1 - Lizenz.rtf"/>
+	<Item Name="647C_EN_0901A2.pdf" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/647C_EN_0901A2.pdf"/>
 </Library>
