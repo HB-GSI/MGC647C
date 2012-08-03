@@ -62,7 +62,6 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="MGC647C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/MGC647C/MGC647C.lvlib"/>
-		<Item Name="HGF_FGV_File.lvlib" Type="Library" URL="/&lt;userlib&gt;/FGV_Utilities/HGF_FGV_File/HGF_FGV_File.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -108,6 +107,9 @@
 				<Item Name="RemoveNamedSemaphorePrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/RemoveNamedSemaphorePrefix.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="HGF_FGV_File.lvlib" Type="Library" URL="/&lt;userlib&gt;/HGF_FGV/HGF_FGV_File/HGF_FGV_File.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
