@@ -54,6 +54,7 @@ In case of questions mail to: H.Brand@gsi.de</Property>
 		<Item Name="Transaction.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Private/Transaction.vi"/>
 		<Item Name="Pressure Ranges.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Private/Pressure Ranges.vi"/>
 		<Item Name="Flow Ranges.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Private/Flow Ranges.vi"/>
+		<Item Name="Corrected Range.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Corrected Range.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -72,6 +73,12 @@ In case of questions mail to: H.Brand@gsi.de</Property>
 				<Item Name="PID Integral.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/PID Integral.vi"/>
 				<Item Name="PID Lead.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/PID Lead.vi"/>
 			</Item>
+			<Item Name="SI Units" Type="Folder">
+				<Item Name="Flow Setpoint SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Flow Setpoint SI.vi"/>
+				<Item Name="Flow High Limit SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Flow High Limit SI.vi"/>
+				<Item Name="Flow Low Limit SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Flow Low Limit SI.vi"/>
+				<Item Name="Gas Set Setpoint SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Gas Set Setpoint SI.vi"/>
+			</Item>
 			<Item Name="Pressure Controller.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Pressure Controller.vi"/>
 			<Item Name="Pressure Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Pressure Mode.vi"/>
 			<Item Name="Pressure Unit.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Pressure Unit.vi"/>
@@ -85,15 +92,14 @@ In case of questions mail to: H.Brand@gsi.de</Property>
 			<Item Name="Flow Setpoint.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Flow Setpoint.vi"/>
 			<Item Name="High Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/High Limit.vi"/>
 			<Item Name="Low Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Low Limit.vi"/>
-			<Item Name="Flow Setpoint SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Flow Setpoint SI.vi"/>
-			<Item Name="Flow High Limit SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Flow High Limit SI.vi"/>
-			<Item Name="Flow Low Limit SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Flow Low Limit SI.vi"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
+			<Item Name="SI Units" Type="Folder">
+				<Item Name="Actual Flow SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Data/Actual Flow SI.vi"/>
+				<Item Name="Actual Pressure SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Data/Actual Pressure SI.vi"/>
+			</Item>
 			<Item Name="Actual Flow.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Data/Actual Flow.vi"/>
-			<Item Name="Actual Flow SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Data/Actual Flow SI.vi"/>
 			<Item Name="Actual Pressure.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Data/Actual Pressure.vi"/>
-			<Item Name="Actual Pressure SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Data/Actual Pressure SI.vi"/>
 		</Item>
 		<Item Name="Utility" Type="Folder">
 			<Item Name="Revision Query.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Utility/Revision Query.vi"/>
@@ -111,4 +117,6 @@ In case of questions mail to: H.Brand@gsi.de</Property>
 	<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/EUPL v.1.1 - Lizenz.pdf"/>
 	<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/EUPL v.1.1 - Lizenz.rtf"/>
 	<Item Name="647C_EN_0901A2.pdf" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/647C_EN_0901A2.pdf"/>
+	<Item Name="Gas Set Setpoint_including_correction_factor.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Gas Set Setpoint_including_correction_factor.vi"/>
+	<Item Name="Read Valve Status.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Action-Status/Read Valve Status.vi"/>
 </Library>
