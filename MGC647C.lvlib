@@ -54,7 +54,7 @@ In case of questions mail to: H.Brand@gsi.de</Property>
 		<Item Name="Corrected Range.vi" Type="VI" URL="../Private/Corrected Range.vi"/>
 		<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Private/Default Instrument Setup.vi"/>
 		<Item Name="Flow Ranges.vi" Type="VI" URL="../Private/Flow Ranges.vi"/>
-		<Item Name="Pressure Ranges.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Private/Pressure Ranges.vi"/>
+		<Item Name="Pressure Ranges.vi" Type="VI" URL="../Private/Pressure Ranges.vi"/>
 		<Item Name="Transaction.vi" Type="VI" URL="../Private/Transaction.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
@@ -63,43 +63,43 @@ In case of questions mail to: H.Brand@gsi.de</Property>
 		<Item Name="Action-Status" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Channel Status.vi" Type="VI" URL="../Public/Action-Status/Channel Status.vi"/>
-			<Item Name="Gas Menu.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Action-Status/Gas Menu.vi"/>
+			<Item Name="Gas Menu.vi" Type="VI" URL="../Public/Action-Status/Gas Menu.vi"/>
 			<Item Name="Keyboard.vi" Type="VI" URL="../Public/Action-Status/Keyboard.vi"/>
 			<Item Name="Switch Valve.vi" Type="VI" URL="../Public/Action-Status/Switch Valve.vi"/>
-			<Item Name="Zero Adjust MFC.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Action-Status/Zero Adjust MFC.vi"/>
-			<Item Name="Zero Adjust Pressure.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Action-Status/Zero Adjust Pressure.vi"/>
+			<Item Name="Zero Adjust MFC.vi" Type="VI" URL="../Public/Action-Status/Zero Adjust MFC.vi"/>
+			<Item Name="Zero Adjust Pressure.vi" Type="VI" URL="../Public/Action-Status/Zero Adjust Pressure.vi"/>
 		</Item>
 		<Item Name="Configure" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="PID" Type="Folder">
-				<Item Name="PID Gain.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/PID Gain.vi"/>
-				<Item Name="PID Integral.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/PID Integral.vi"/>
-				<Item Name="PID Lead.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/PID Lead.vi"/>
+				<Item Name="PID Gain.vi" Type="VI" URL="../Public/Configure/PID Gain.vi"/>
+				<Item Name="PID Integral.vi" Type="VI" URL="../Public/Configure/PID Integral.vi"/>
+				<Item Name="PID Lead.vi" Type="VI" URL="../Public/Configure/PID Lead.vi"/>
 			</Item>
 			<Item Name="SI Units" Type="Folder">
-				<Item Name="Flow High Limit SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Flow High Limit SI.vi"/>
-				<Item Name="Flow Low Limit SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Flow Low Limit SI.vi"/>
+				<Item Name="Flow High Limit SI.vi" Type="VI" URL="../Public/Configure/Flow High Limit SI.vi"/>
+				<Item Name="Flow Low Limit SI.vi" Type="VI" URL="../Public/Configure/Flow Low Limit SI.vi"/>
 				<Item Name="Flow Setpoint SI.vi" Type="VI" URL="../Public/Configure/Flow Setpoint SI.vi"/>
-				<Item Name="Gas Set Setpoint SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Gas Set Setpoint SI.vi"/>
-				<Item Name="Pressure Setpoint SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Pressure Setpoint SI.vi"/>
+				<Item Name="Gas Set Setpoint SI.vi" Type="VI" URL="../Public/Configure/Gas Set Setpoint SI.vi"/>
+				<Item Name="Pressure Setpoint SI.vi" Type="VI" URL="../Public/Configure/Pressure Setpoint SI.vi"/>
 			</Item>
 			<Item Name="Flow Range.vi" Type="VI" URL="../Public/Configure/Flow Range.vi"/>
 			<Item Name="Flow Setpoint.vi" Type="VI" URL="../Public/Configure/Flow Setpoint.vi"/>
 			<Item Name="Gas Correction Factor.vi" Type="VI" URL="../Public/Configure/Gas Correction Factor.vi"/>
-			<Item Name="Gas Set Setpoint.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Gas Set Setpoint.vi"/>
-			<Item Name="High Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/High Limit.vi"/>
-			<Item Name="Low Limit.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Low Limit.vi"/>
+			<Item Name="Gas Set Setpoint.vi" Type="VI" URL="../Public/Configure/Gas Set Setpoint.vi"/>
+			<Item Name="High Limit.vi" Type="VI" URL="../Public/Configure/High Limit.vi"/>
+			<Item Name="Low Limit.vi" Type="VI" URL="../Public/Configure/Low Limit.vi"/>
 			<Item Name="Mode.vi" Type="VI" URL="../Public/Configure/Mode.vi"/>
-			<Item Name="Pressure Controller.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Pressure Controller.vi"/>
+			<Item Name="Pressure Controller.vi" Type="VI" URL="../Public/Configure/Pressure Controller.vi"/>
 			<Item Name="Pressure Mode.vi" Type="VI" URL="../Public/Configure/Pressure Mode.vi"/>
-			<Item Name="Pressure Setpoint.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Pressure Setpoint.vi"/>
+			<Item Name="Pressure Setpoint.vi" Type="VI" URL="../Public/Configure/Pressure Setpoint.vi"/>
 			<Item Name="Pressure Unit.vi" Type="VI" URL="../Public/Configure/Pressure Unit.vi"/>
-			<Item Name="Trip Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Configure/Trip Mode.vi"/>
+			<Item Name="Trip Mode.vi" Type="VI" URL="../Public/Configure/Trip Mode.vi"/>
 		</Item>
 		<Item Name="Data" Type="Folder">
 			<Item Name="SI Units" Type="Folder">
 				<Item Name="Actual Flow SI.vi" Type="VI" URL="../Public/Data/Actual Flow SI.vi"/>
-				<Item Name="Actual Pressure SI.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/Data/Actual Pressure SI.vi"/>
+				<Item Name="Actual Pressure SI.vi" Type="VI" URL="../Public/Data/Actual Pressure SI.vi"/>
 			</Item>
 			<Item Name="Actual Flow.vi" Type="VI" URL="../Public/Data/Actual Flow.vi"/>
 			<Item Name="Actual Pressure.vi" Type="VI" URL="../Public/Data/Actual Pressure.vi"/>
@@ -112,12 +112,10 @@ In case of questions mail to: H.Brand@gsi.de</Property>
 		<Item Name="Initialize.vi" Type="VI" URL="../Public/Initialize.vi"/>
 	</Item>
 	<Item Name="Examples" Type="Folder">
-		<Item Name="Monitor Pressure &amp; Flow.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Examples/Monitor Pressure &amp; Flow.vi"/>
-		<Item Name="Read Status.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Examples/Read Status.vi"/>
+		<Item Name="Monitor Pressure &amp; Flow.vi" Type="VI" URL="../Examples/Monitor Pressure &amp; Flow.vi"/>
+		<Item Name="Read Status.vi" Type="VI" URL="../Examples/Read Status.vi"/>
 	</Item>
-	<Item Name="VI Tree.vi" Type="VI" URL="/&lt;instrlib&gt;/MGC647C/Public/VI Tree.vi"/>
-	<Item Name="MGC647C Readme.html" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/MGC647C Readme.html"/>
-	<Item Name="EUPL v.1.1 - Lizenz.pdf" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/EUPL v.1.1 - Lizenz.pdf"/>
-	<Item Name="EUPL v.1.1 - Lizenz.rtf" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/EUPL v.1.1 - Lizenz.rtf"/>
-	<Item Name="647C_EN_0901A2.pdf" Type="Document" URL="/&lt;instrlib&gt;/MGC647C/647C_EN_0901A2.pdf"/>
+	<Item Name="VI Tree.vi" Type="VI" URL="../Public/VI Tree.vi"/>
+	<Item Name="647C_EN_0901A2.pdf" Type="Document" URL="../647C_EN_0901A2.pdf"/>
+	<Item Name="MGC647C Readme.html" Type="Document" URL="../MGC647C Readme.html"/>
 </Library>
